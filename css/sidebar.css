@@ -1,0 +1,32 @@
+nav {
+  width: 300px;
+  display: block;
+  position: fixed;
+  top: 110px;
+  left: 20px;
+  overflow: hidden;
+  opacity: .2;
+  transition: all .8s ease-out;
+}
+nav:hover {
+  opacity: 1;
+  transition: all .1s ease-out;
+}
+nav a {
+  text-decoration: none;
+}
+nav li {
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 20px;
+}
+nav > ul > li:first-child {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 16px;
+  width: 100%;
+}
+nav ul > ul {
+  color: #777;
+  margin-left: 10px;
+}
